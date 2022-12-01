@@ -1,8 +1,6 @@
 Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
 >>> l1=[2,"efg",9,True]
->>> l1{0}
-SyntaxError: invalid syntax
 >>> l1[1]
 'efg'
 >>> l1[1:4]
@@ -10,16 +8,6 @@ SyntaxError: invalid syntax
 >>> l1[1]=100
 >>> l1
 [2, 100, 9, True]
->>> l1.append["hello"]
-Traceback (most recent call last):
-  File "<pyshell#6>", line 1, in <module>
-    l1.append["hello"]
-TypeError: 'builtin_function_or_method' object is not subscriptable
->>> l1.append["sparta"]
-Traceback (most recent call last):
-  File "<pyshell#7>", line 1, in <module>
-    l1.append["sparta"]
-TypeError: 'builtin_function_or_method' object is not subscriptable
 >>> l1.append("hello")
 >>> l1
 [2, 100, 9, True, 'hello']
